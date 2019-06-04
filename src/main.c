@@ -16,7 +16,7 @@ int		main(int argc, char **argv)
 {
 	if (argc != 2)
 	{
-		ft_putendl("usage: ./fillit <FILENAME>\n");
+		ft_putendl("usage: ./fillit <FILENAME>");
 		return (0);
 	}
 	return (main_help(argv[1]));
@@ -37,7 +37,7 @@ int		main_help(char *argv)
 		{
 			new = ft_separate2(str, f);
 			if (ft_check_figure(new) == 0)
-				ft_putendl("error\n");
+				ft_putendl("error");
 			else
 				check_r_and_rotate(new, f);
 			ft_clean_list(new);
@@ -46,7 +46,7 @@ int		main_help(char *argv)
 		}
 		free(str);
 	}
-	ft_putendl("error\n");
+	ft_putendl("error");
 	return (0);
 }
 
