@@ -8,11 +8,53 @@ Run `make`, an executable called `fillit` should compile directly. Please submit
 an issue if you run into any.
 
 ## Usage
-`./fillit [file]`
+`$>./fillit [file]`
+File Example:
+$>cat test_8:
+  
+....
+....
+..##
+.##.
 
-Example:
+....
+.##.
+..#.
+..#.
+
+....
+....
+..##
+.##.
+
+....
+....
+..##
+.##.
+
+....
+....
+..##
+.##.
+
+....
+....
+..##
+.##.
+
+....
+....
+..##
+.##.
+
+....
+....
+..##
+.##.
+
+Fillit Example:
 ```
-~ ./fillit samples/test_8
+$>~ ./fillit samples/test_8
 
 .AABB..
 AACCB..
