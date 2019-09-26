@@ -9,6 +9,7 @@ an issue if you run into any.
 
 ## Usage
 `$>./fillit [file]`
+```
 File Example:
 $>cat test_8:
   
@@ -52,7 +53,7 @@ $>cat test_8:
 ..##
 .##.
 
-
+```
 Fillit Example:
 ```
 $>~ ./fillit samples/test_8
